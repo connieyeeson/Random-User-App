@@ -1,0 +1,101 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body{
+
+    background-color:rgb(2, 2, 44);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.parentDiv {
+
+    /* border: white 2px solid; */
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    height: 30vw;
+    padding: 20px;
+
+    
+
+}
+
+.userBar {
+
+    border: white 1px solid;
+    width: 23vw;
+    background-color: rgb(30, 30, 53);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+
+    padding: 5px;
+    border: black 1px solid ;
+}
+
+img{
+    
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1300px;
+    border: white 1px solid;
+
+}
+
+.editImg  {
+
+    margin-top: 10px;
+}
+
+.userInfo {
+
+    /* border: white 1px solid; */
+    width: 21vw;
+    height: 40vh;
+    display:flex;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+    /* margin: 10px; */
+    align-items:center;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.userInfo div{
+
+    /* border: white 1px solid; */
+    width: 20vw;
+    text-align: center;
+}
+
+a {
+    
+    text-align: center;
+    color: aliceblue;
+}   
+
