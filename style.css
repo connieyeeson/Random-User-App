@@ -19,38 +19,41 @@ body{
 
 .parentDiv {
 
-    /* border: white 2px solid; */
-    width: 80vw;
-    display: flex;
+    width: 100%;
+    display:none;
     justify-content: space-around;
-    height: 30vw;
     padding: 20px;
-
-    
-
+    flex-wrap: wrap;
 }
 
 .userBar {
 
-    border: white 1px solid;
-    width: 23vw;
+    width: 19rem;
+    height: auto;
     background-color: rgb(30, 30, 53);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-
+    padding: 1rem;
+    margin: 2rem 1rem;
 }
 
 h1 {
 
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 button {
 
-    padding: 5px;
-    border: black 1px solid ;
+    display:block;
+    padding: 10px;
+    border: gray 5px solid;
+    border-radius: 10px;
+    margin-top: 90px;
+    flex-wrap: wrap;
 }
 
 img{
@@ -62,34 +65,27 @@ img{
     margin-left: auto;
     margin-right: auto;
     border-radius: 1300px;
-    border: white 1px solid;
-
+    border: rgb(182, 173, 173) 5px solid;
+    border-style: dotted;
 }
 
-.editImg  {
-
-    margin-top: 10px;
-}
 
 .userInfo {
 
-    /* border: white 1px solid; */
-    width: 21vw;
-    height: 40vh;
+    height: 15rem;
     display:flex;
     flex-direction:column;
     margin-left:auto;
     margin-right:auto;
-    /* margin: 10px; */
     align-items:center;
     justify-content: space-evenly;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .userInfo div{
 
-    /* border: white 1px solid; */
-    width: 20vw;
+  
     text-align: center;
 }
 
@@ -97,5 +93,10 @@ a {
     
     text-align: center;
     color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+
 }   
+
+
+
 
